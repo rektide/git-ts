@@ -42,4 +42,9 @@ it timestamps the blob of the commit as well as the commit's fully pathed tree w
 # future considerations #
 
 + a `post-receive` hook
-+ audits atompub published
++ audits and PTB remailers:
+    + AtomPub
+    + Twitter
+    + Email
+    + XMPP
+    + IRC
