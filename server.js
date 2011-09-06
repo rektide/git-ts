@@ -38,8 +38,6 @@ if(process.argv[2] == 'install') {
 	process.exit()
 }
 
-process.exit(99)
-
 exec('git log -n1', function(err,stdout,stdin) {
      if(err) process.exit(2)
      var head= stdout.split(spaces,2)[1]
