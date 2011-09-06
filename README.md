@@ -66,7 +66,8 @@ Add second parameter to git-ts install to add url into post-commit script. %s is
 100644 blob ced4376aed82d90b1630ba76a302c7028adc7bb8 78	lib/publictimestamp-1.0-J1.6.jar.url
 100644 blob 56990d045b9b8cb6c9349b1fb551652bd9ca9fcc 588	package.json
 100644 blob 58a35075b844fdfa0116de7fdbbfda6d7481a2df 4270	publish.js
-100755 blob 54cc6cdb9dd95458e62acfbb960490c34e59fb15 1484	server.js```
+100755 blob 54cc6cdb9dd95458e62acfbb960490c34e59fb15 1484	server.js
+```
 
 # future considerations #
 
