@@ -41,7 +41,8 @@ it timestamps the object of commit, the blob of the commit, as well as the commi
 
 for example:
 
-```0471cf8825969c8fc8f428afd3e6c23e4065786f
+```
+0471cf8825969c8fc8f428afd3e6c23e4065786f
 tree 913d9b38ed1a06236c042824c4cfd80c30e19490
 parent 5179451d189a9c4cf42461b143e54c38f92eefe8
 author rektide <rektide@voodoowarez.com> 1315301027 -0400
