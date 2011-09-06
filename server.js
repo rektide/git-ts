@@ -35,6 +35,7 @@ if(process.argv[2] == 'install') {
 	}
 
 	fs.writeFileSync(dest,"#!/bin/sh\ngit-ts-publish")
+	fs.chmod(dest,0755)
 	process.exit()
 }
 
