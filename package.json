@@ -1,0 +1,27 @@
+{
+	"name": "git-ts",
+	"description": "Git TimeStamp utility",
+	"version": "1.0.0",
+	"keywords": ["git","timestamp","publictimestamp","vcm"],
+	"maintainers": [{
+		"name": "Matthew 'rektide' Fowle",
+		"email": "rektide@voodoowarez.com",
+		"web": "http://voodoowarez.com"
+	}],
+	"homepage": "http://voodoowarez.com/git-ts",
+	"implements": ["CommonJS/Modules/1.0"],
+	"engines": { 
+		"node": ">=0.5.0" 
+	},
+	"dependencies": {
+		"optimist": "0.2.6",
+		"q": "0.7.1"
+	},
+	"repository": {
+		"type": "git", 
+		"url": "http://git.voodoowarez.com/git-ts.git"
+	},
+	"directories": {
+		"bin": "bin"
+	}
+}
