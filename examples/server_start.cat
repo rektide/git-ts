@@ -1,0 +1,13 @@
+e6239e8ac3d89fef26db96d980c980edcf15468e
+tree 178a643d87c9a7774b6c7c8e7f722d44a0b35e01
+parent 0834d3800db485c7012a715d85ec88afb8f94045
+author rektide <rektide@voodoowarez.com> 1315275458 -0400
+committer rektide <rektide@voodoowarez.com> 1315275458 -0400
+
+Add bin/publictimestamp link.
+
+100644 blob 1636d41c9ccc1fe4bb56b014b0bef725f24fec79     555	README.md
+040000 tree ea0e1243135304df910306a1c3a100d4e59085fb       -	bin
+100755 blob 08fc257d6f9f5e750df891d6b256b3080e86c9e5      52	bin/publictimestamp
+100644 blob ced4376aed82d90b1630ba76a302c7028adc7bb8      78	publictimestamp-1.0-J1.6.jar.url
+100755 blob d1c3b2f6e3144ed056658d49c5dd5b4ebfee5bc0     790	server.js
