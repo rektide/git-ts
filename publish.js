@@ -42,7 +42,6 @@ Q.join(written.promise, prefs_person.promise, prefs_email.promise, prefs_pn.prom
 		}
 		backMap = {
 			h: 'homepage',
-			u: 'u',
 			url: 'url',
 			t: 'type'
 		}
@@ -55,6 +54,10 @@ Q.join(written.promise, prefs_person.promise, prefs_email.promise, prefs_pn.prom
 		var val= argv[backMap[i]]
 		if(val)
 			pts.push("-"+i,val)
+	}
+	if(argv.u) {
+		var u= argv.u.replace("%s",nameVal)
+		pts.push("-u",u)
 	}
 	pts.push('-f',tmp)
 

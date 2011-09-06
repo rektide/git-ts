@@ -1,5 +1,4 @@
 #!/bin/sh
-#!/bin/sh
 ORIGIN=`readlink -e $0`
 ROOT=`dirname ${ORIGIN}`
 node $ROOT/../publish.js $* -- $0

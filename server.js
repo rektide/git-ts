@@ -34,7 +34,10 @@ if(process.argv[2] == 'install') {
 	}catch(ex){
 	}
 
-	fs.writeFileSync(dest,"#!/bin/sh\ngit-ts-publish")
+	var file= "#!/bin/sh\ngit-ts-publish"
+	if(process.argv[3])
+		file+= " -u '"+process.argv[3]+"'"
+	fs.writeFileSync(dest,file)
 	fs.chmod(dest,0755)
 	process.exit()
 }
