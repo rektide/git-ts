@@ -37,6 +37,8 @@ if(process.argv[2] == 'install') {
 	var file= "#!/bin/sh\ngit-ts-publish"
 	if(process.argv[3])
 		file+= " -u '"+process.argv[3]+"'"
+	for(var i = 4; i < process.argv.length; ++i)
+		file+= " "+process.argv[i]
 	fs.writeFileSync(dest,file)
 	fs.chmod(dest,0755)
 	process.exit()
