@@ -83,7 +83,7 @@ Q.join(written.promise, prefs_person.promise, prefs_email.promise, prefs_pn.prom
 	
 })
 
-var filterUrl = /^.*:.*?([\w-]+)\.git$/
+var filterUrl = /^.*:.*?([\w-]+)(?:\.git)?$/
 function filterRemote(url) {
 	return filterUrl.exec(url)[1]
 }
