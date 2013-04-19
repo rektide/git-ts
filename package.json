@@ -23,5 +23,8 @@
 	},
 	"directories": {
 		"bin": "bin"
+	},
+	"scripts": {
+		"postinstall": "publictimestamp"
 	}
 }
