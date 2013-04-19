@@ -56,7 +56,7 @@ exec('git log -n1', function(err,stdout,stdin) {
                process.stdout.write("\n")
                process.stdout.write(stdout_catfile)
                process.stdout.write("\n")
-               process.stdout.end(stdout_tree)
+               //process.stdout.end(stdout_tree)
           })
      })
 })
