@@ -1,4 +1,8 @@
 #!/bin/sh
+JAR=publictimestamp-1.0-J1.6.jar 
 ORIGIN=`readlink -e $0`
 ROOT=`dirname ${ORIGIN}`
-java -jar ${ROOT}/../lib/publictimestamp-1.0-J1.6.jar $*
+LIBDIR=$ROOT/../lib
+JAR_LOC=$LIBDIR/$JAR
+[ -f $JAR_LOC ] || (echo downloading publictimestamp for the first time; cd $LIBDIR; wget $(cat $JAR.url))
+java -jar $JAR_LOC $*
